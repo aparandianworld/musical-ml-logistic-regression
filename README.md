@@ -1,2 +1,2 @@
 # musical-ml-logistic-regression
-Logistic Regression (classification) implementation with Iris dataset
+Logistic Regression (binary classification) implementation with Iris dataset

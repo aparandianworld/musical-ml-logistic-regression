@@ -53,6 +53,7 @@ y_test_hat = model.predict(X_test)
 
 # Evaluate
 print("\nEvaluation:")
+print("\n-----------------------------------")
 print("Accuracy: ", accuracy_score(y_test, y_test_hat))
-print("Confusion matrix:", confusion_matrix(y_test, y_test_hat))
-print("Classification report:", classification_report(y_test, y_test_hat))
+print("Confusion matrix:\n", confusion_matrix(y_test, y_test_hat))
+print("Classification report:\n", classification_report(y_test, y_test_hat))
